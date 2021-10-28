@@ -6,7 +6,14 @@ Portifolio do desenvolvedor
 
 O controle das tarefas desse projeto será realizado no GitHub
 
-## Ícones
+## Referncias e buscas de materiais
+
+- gradient:  Ulgradient.com
+- icons: webfx.com
+- favicons: fivicon.com
+- images: Unsplash.com  
+
+### Ícones
 
 - :package: nova funcionalidade
 - :up: atualização
