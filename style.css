@@ -10,6 +10,9 @@
     text-decoration: none;
 }
 
+
+/*criando variaveis de fontes de texto*/
+
 :root {
     --font-primary: "Baloo Da 2", serif;
     --font-secundary: "Josefin Slab", serif;
@@ -19,6 +22,9 @@
 html {
     scroll-behavior: smooth;
 }
+
+
+/*estilo do icone de menu flutuante*/
 
 .hamburguer {
     /* background-color: red; */
@@ -34,9 +40,15 @@ html {
     cursor: pointer;
 }
 
+
+/*mudando estilo do icone para acompanhar a caixa de menu*/
+
 .show-menu .hamburguer {
     right: 16rem;
 }
+
+
+/*estilo das linhas do icone do menu*/
 
 .line {
     width: 100%;
@@ -45,6 +57,9 @@ html {
     box-shadow: 0.1rem 0.1rem 1px #000;
     transition: transform 1s;
 }
+
+
+/*alterando estilo das linhas do icone de menu para dpois de clicar nele*/
 
 .show-menu #line1 {
     transform: rotate(45deg) translate(0.3rem, 0.45rem);
@@ -59,6 +74,9 @@ html {
     transform: rotate(-45deg) translate(0.3rem, -0.45rem);
 }
 
+
+/*estilo de mensagem para fechar o menu lateral*/
+
 .hamburguer span {
     position: absolute;
     left: 3rem;
@@ -72,6 +90,9 @@ html {
     font-family: var(--font-action);
     opacity: 0;
 }
+
+
+/*estilo da caixa de texto antes de passar com o mause por cima do icone de fechar o menu*/
 
 .hamburguer span::before {
     content: "";
@@ -176,8 +197,8 @@ header {
     letter-spacing: 0.1rem;
     /*site com fontes gradientes*/
     background: #ff00cc;
-    background: -webkit-linear-gradient(to right, rgba(41, 8, 53, 0.911), #703399d7, #d400ffdc, #d400ff);
-    background: linear-gradient(to right, rgba(41, 8, 53, 0.911), #703399d7, #d400ffdc, #d400ff);
+    background: -webkit-linear-gradient(to right, rgba(41, 8, 53, 1), #703399d7, #d400ffdc, #d400ff);
+    background: linear-gradient(to right, rgba(41, 8, 53, 1), #703399ec, #a619c2ee, #d400ff);
     padding: 1rem 3rem;
     border: none;
     border-radius: 5px;
@@ -201,6 +222,9 @@ header {
     }
 }
 
+
+/*estilo de caixa do menu*/
+
 .sidebar {
     width: 20rem;
     height: 100vh;
@@ -212,9 +236,15 @@ header {
     z-index: 80;
 }
 
+
+/*estilo do menu com script*/
+
 .show-menu .sidebar {
     right: 0;
 }
+
+
+/*estilo do texto do menu*/
 
 .menu {
     position: absolute;
@@ -223,10 +253,16 @@ header {
     transform: translate(-50%, -50%);
 }
 
+
+/*centralizando texto do menu*/
+
 .menu-item {
     text-align: center;
     margin-bottom: 0.5rem;
 }
+
+
+/*estilo para fonte do texto do menu*/
 
 .menu-link {
     font-family: var(--font-action);
@@ -235,9 +271,15 @@ header {
     transition: color 1s;
 }
 
+
+/*estilo de animação do texto do menu*/
+
 .menu-link:hover {
     color: #6a3093;
 }
+
+
+/*estilo dos icones para redes sociais*/
 
 .social-media {
     position: absolute;
@@ -246,6 +288,9 @@ header {
     display: flex;
     justify-content: space-evenly;
 }
+
+
+/*estilo para mudar a aparencia dos icones*/
 
 .social-media i {
     background-color: #6a3093;
@@ -259,6 +304,9 @@ header {
     border-radius: 50%;
     transition: background-color 1s;
 }
+
+
+/*estilo de animação dos icones de midias sociais*/
 
 .social-media i:hover {
     background-color: #a044ff;
@@ -419,9 +467,9 @@ header {
 }
 
 .btn {
-    background: #6a3093;
-    background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
-    background: linear-gradient(to left, #a044ff, #6a3093);
+    background: #ff00cc;
+    background: -webkit-linear-gradient(to right, rgba(41, 8, 53, 0.911), #703399d7, #d400ffdc, #d400ff);
+    background: linear-gradient(to right, rgba(41, 8, 53, 0.911), #703399d7, #a619c2ee, #d400ff);
     font-family: var(--font-action);
     color: #eee;
     border-radius: 0.5rem;
@@ -564,9 +612,9 @@ header {
     position: absolute;
     top: -2.5rem;
     left: 2rem;
-    background: #6a3093;
-    background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
-    background: linear-gradient(to left, #a044ff, #6a3093);
+    background: #ff00cc;
+    background: -webkit-linear-gradient(to right, rgba(41, 8, 53, 1), #703399d7, #d400ffdc, #d400ff);
+    background: linear-gradient(to right, rgba(41, 8, 53, 1), #703399e3, #a619c2ee, #d400ff);
     padding: 0 3rem;
     color: #fff;
     font-family: var(--font-primary);
@@ -643,9 +691,9 @@ footer {
     bottom: 3rem;
     width: 3rem;
     height: 3rem;
-    background: #6a3093;
-    background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
-    background: linear-gradient(to left, #a044ff, #6a3093);
+    background: #ff00cc;
+    background: -webkit-linear-gradient(to top, rgba(41, 8, 53, 1), #703399ec, #d518dbee, #d400ff);
+    background: linear-gradient(to top, rgba(41, 8, 53, 1), #703399f3, #d518dbee, #d400ff);
     display: flex;
     justify-content: center;
     align-items: center;
