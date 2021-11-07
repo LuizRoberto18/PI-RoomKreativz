@@ -436,8 +436,8 @@ header {
 }
 
 .card {
-    width: 18rem;
-    height: 25rem;
+    width: 19rem;
+    height: 30rem;
     position: relative;
 }
 
@@ -454,7 +454,7 @@ header {
     height: 100%;
     border-radius: 0.5rem;
     opacity: 0.8;
-    transition: opacity 0.3s;
+    transition: opacity 0.6s;
 }
 
 .card:hover .card-img-wrapper img {
@@ -466,16 +466,21 @@ header {
     bottom: 0;
     opacity: 0;
     visibility: hidden;
-    padding: 2rem;
+    padding: 2.5rem;
     text-shadow: 0.3rem 0.2rem 0.3rem rgba(0, 0, 0, 0.6);
     transition: all 0.3s;
+    padding-bottom: 10;
+    display: inline;
 }
 
 .card-info h2 {
     font-family: var(--font-primary);
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: 500;
     color: #eee;
+    text-transform: uppercase;
+    display: flex;
+    margin-top: -2rem;
 }
 
 .card-info h3 {
@@ -483,6 +488,7 @@ header {
     font-weight: bolder;
     color: #ff4081;
     margin-bottom: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .card-info p {
@@ -491,6 +497,7 @@ header {
     font-weight: 400;
     width: 80%;
     margin-bottom: 2rem;
+    font-size: 1.1rem;
 }
 
 .btn {
@@ -595,6 +602,7 @@ header {
     transition: all 0.3s;
 }
 
+.field:valid~label,
 .field:focus~label {
     top: 0;
     font-size: 0.7rem;
@@ -710,6 +718,11 @@ footer {
     margin: 0 2rem;
     color: #a7a7a7;
     font-size: 1.3rem;
+}
+
+.social-list a h3 {
+    width: 125px;
+    text-align: justify;
 }
 
 .social-list ul {
