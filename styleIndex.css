@@ -461,7 +461,7 @@ header {
 .projetos {
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 
@@ -525,6 +525,7 @@ header {
     color: #eee;
     text-transform: uppercase;
     display: inline;
+    margin-bottom: 0.2rem;
 }
 
 
@@ -534,7 +535,7 @@ header {
     font-family: var(--font-action);
     font-weight: bolder;
     color: #ff4081;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.2rem;
     font-size: 1.3rem;
 }
 
@@ -547,7 +548,7 @@ header {
     font-weight: 400;
     width: 85%;
     margin-bottom: 2rem;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 
