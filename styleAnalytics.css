@@ -469,15 +469,24 @@ header {
     margin-right: 1rem;
 }
 
-.planos-txt {}
+.conhecimento-text ul li {
+    list-style-type: disc;
+    font-family: var(--font-secundary);
+    color: #4b4b4b;
+    font-weight: 400;
+    width: 80%;
+    margin-bottom: 0.1rem;
+    font-size: 1.1rem;
+}
 
 
 /*estilo da imagem centralizada na grid*/
 
 .conhecimentos-img-wrapper {
     grid-column: 4 / 12;
-    grid-row: 1 / 6;
-    margin-top: 50px;
+    grid-row: 2 / 5;
+    margin-top: 6.5rem;
+    margin-left: 5rem;
     width: 80%;
     height: 80%;
 }
@@ -493,7 +502,12 @@ header {
 
 /*estilo da imagem dentro da grid*/
 
-.conhecimentos-img-wrapper img,
+.conhecimentos-img-wrapper img {
+    object-fit: cover;
+    height: 100%;
+    border-radius: 30%;
+}
+
 .conhecimentos-img-wrapper-planos img {
     object-fit: cover;
     height: 100%;

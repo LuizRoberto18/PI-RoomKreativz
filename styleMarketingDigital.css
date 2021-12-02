@@ -259,6 +259,7 @@ header {
 .menu-item {
     text-align: center;
     margin-bottom: 0.5rem;
+    width: 15rem;
 }
 
 
@@ -414,15 +415,18 @@ header {
 }
 
 .conhecimentos-img-wrapper {
-    grid-column: 7 / 11;
-    grid-row: 2 / 6;
+    grid-column: 7 / 10;
+    grid-row: 2 / 5;
     width: 80%;
     height: 80%;
+    margin-top: 4rem;
+    margin-left: -1rem;
 }
 
 .conhecimentos-img-wrapper img {
     object-fit: cover;
     height: 100%;
+    border-radius: 20%;
 }
 
 .sessao-projetos .sessao-header h1 {
@@ -497,6 +501,16 @@ header {
     font-weight: 400;
     width: 80%;
     margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+
+ul li {
+    list-style-type: disc;
+    font-family: var(--font-secundary);
+    color: #eee;
+    font-weight: 400;
+    width: 80%;
+    margin-bottom: 0.5rem;
     font-size: 1.1rem;
 }
 

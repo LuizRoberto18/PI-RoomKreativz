@@ -480,6 +480,7 @@ header {
     color: #eee;
     text-transform: uppercase;
     display: flex;
+    margin-bottom: 0rem;
     margin-top: -2rem;
 }
 
@@ -487,17 +488,18 @@ header {
     font-family: var(--font-action);
     font-weight: bolder;
     color: #ff4081;
-    margin-bottom: 1.5rem;
-    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
 }
 
 .card-info p {
     font-family: var(--font-secundary);
     color: #eee;
     font-weight: 400;
-    width: 80%;
-    margin-bottom: 2rem;
-    font-size: 1.1rem;
+    width: 100%;
+    margin-bottom: 1.2rem;
+    font-size: 1rem;
+    text-align: justify;
 }
 
 .btn {
